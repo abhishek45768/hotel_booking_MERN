@@ -1,0 +1,1005 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Your custom styles below */
+/* header */
+header {
+  background-image: url('./assets/images/mask.png');
+  background-size: cover;
+  height: 65px;
+}
+
+.logo {
+  color: purple;
+  font-family: cursive;
+  text-align: center;
+  font-size: 35px;
+  background: transparent;
+  width: 117px;
+  height: 106px;
+  background-size: cover;
+  position: absolute;
+}
+
+a {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+ul {
+  padding-top: 7px;
+  gap: 30px; /* Adjust as needed */
+  margin-left: 0; /* Centered on mobile */
+  display: flex;
+  justify-content: center; /* Centered on mobile */
+  list-style: none;
+}
+
+.login {
+  background-color: blue;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  top: 13px;
+  border-radius: 145px;
+  width: 100px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 1149px;
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+li:hover {
+  color: blue;
+}
+
+figure {
+  height: 35px;
+  border: 1px solid black;
+  width: 35px;
+  border-radius: 35px;
+  margin-top: 3px;
+  display: none;
+}
+/* homepage */
+
+.containerhome{
+  width: 100%;
+  height:600px;
+  background-image: url('./assets/images/hero-bg.png');
+  background-size: cover;
+  display: flex;
+}
+.right{
+  width: 50%;
+  height: 550px;
+  overflow: hidden;
+}
+.intro{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 60px 0 0 0;
+}
+p{
+  left: 87px;
+  width: 37%;
+  height: 50%;
+  position: absolute;
+  text-align: center;
+  top: 332px; 
+}
+.contactnavi{
+        background-color: blue;
+        top: 440px;
+        border-radius: 45px;
+        font-weight: bolder;
+        left: 222px;
+        color: honeydew;
+        width: 200px;
+        position: absolute;
+        font-size: 20px;
+    }
+.left{
+  width: 50%;
+  height: 550px;
+  
+}
+.slidecontainer{
+  overflow:hidden;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+.img1{
+  box-shadow: 0px 0px 16px 0px gray;
+  top: 80px;
+  width: 40%;
+  height: 400px;
+  position: absolute;
+  left: 53px;
+  animation: a 2s ;
+  background-image: url('./assets/images/ice-191475464-64878723_3XL-648466.jpg');
+  background-size: cover;
+}
+@keyframes a{
+  from{
+   left:-400px; 
+  }
+  to{
+    left:53px;
+  }
+}
+.img2{
+  
+  top: 71px;
+  left: 333px;
+  height: 200px;
+  position: absolute;
+  width: 35%;
+  box-shadow: 0px 0px 16px 0px gray;
+  animation: b  2s;
+  background-size: cover;
+  background-image: url('./assets/images/aveda-hotel-ludhiana.jpg');
+}
+@keyframes b{
+  from{
+   top:-271px; 
+  }
+  to{
+    top:71px;
+  }
+}
+.img3{
+  box-shadow: 0px 0px 16px 0px gray;
+  top: 281px;
+  left: 333px;
+  height: 210px;
+  position: absolute;
+  width: 35%;
+  animation: c 2s;
+  background-size: cover;
+  background-image: url('./assets/images/1360e34a66d55266946faee13566415d.jpg');
+}
+@keyframes c{
+  from{
+   top:781px; 
+  }
+  to{
+    top: 281px;
+  }
+}
+
+
+/* login page */
+
+.loginpage{
+  height: 638px;
+  background-image: url('./assets/images/hero-bg.png');
+  background-size: cover;
+  width: 100%;
+}
+.logincontainer{
+  position: relative;
+  top:100px;
+  left:25px;
+  height: 22rem;
+  width: 37.5rem;
+  margin: auto;
+  text-align: center;
+  padding-top: 0rem;
+  display: flex;
+  padding-left: 5rem;
+  background-color: white;
+  box-shadow: 0rem 0rem 2rem 0rem gray;
+  border-radius: 6.25rem;
+}
+.loginform{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  margin-left: 113px;
+}
+.input1{
+  border-radius: 27px;
+  width: 426px;
+  height: 25px;
+  margin: 138px 43px 0 -273px;
+  box-shadow: 0 0 3px 0 gray;
+}
+.input2{
+  border-radius: 27px;
+  width: 426px;
+  height: 25px;
+  margin:210px 43px 0 -549px;
+  box-shadow: 0 0 3px 0 gray;
+}
+.usernamelogin{
+  position: relative;
+  top: 138px;
+  left: -293px;
+  font-weight: bolder;
+}
+.password{
+  position: relative;
+  top: 211px;
+  left: -562px;
+  font-weight: bolder;
+}
+.submit{
+  position: absolute;
+  top: 254px;
+  left: 220px;
+  border-radius: 1rem;
+  height: 2rem;
+  font-size: 1rem;
+   width: 8rem;
+  font-weight: bolder;
+ color: white;
+ background-color: blue;
+ cursor: pointer;
+}
+.regis{
+  font-size: 24px;
+  position: absolute;
+  top: 300px;
+  left: 80px;
+}
+/*                              register page                               */
+
+form{
+  height: 34rem;
+  
+}
+table{
+  margin: 0 0 0 343px;
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+.register{
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/images/hero-bg.png');
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#register-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 50px;
+  overflow:hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.registerleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 10px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.registerright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.registerright .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+  position:relative;
+  animation: f 2s;
+}
+@keyframes f{
+from{
+left:301px;
+}
+to{
+left:0px;
+}
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+  position:relative;
+  animation: t 2s;
+  
+}
+@keyframes t{
+from{
+left:522px;
+}
+to{
+left:0px;
+}
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+  position:relative;
+  animation: g 2s;
+}
+@keyframes g{
+from{
+left:723px;
+}
+to{
+left:0px;
+}
+}
+
+
+/* contact and footer                   */
+#contact{
+  top:0px;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(10, 10, 10) ;
+  position: relative;
+  box-shadow: 0px 0px 30px 0px black;
+}
+.heading{
+  position: absolute;
+  color: bisque;
+  font-size: 70px;
+  left:460px;
+  top:10px;
+}
+.line2{
+  position: absolute;
+  color: bisque;
+  font-size: 24px;
+  left: 374px;
+  top: 126px;
+  font-family: cursive;
+}
+.email{
+  position: absolute;
+  color: silver;
+  font-family: cursive;
+  left: 142px;
+  top: 290px;
+  font-size: 20px;
+}
+.email-icon{
+  position: absolute;
+  left: 120px;
+  top: -37px;
+}
+.number{
+  position: absolute;
+  color: silver;
+  font-family: cursive;
+  left: 1000px;
+  top: 290px;
+  font-size: 20px;
+}
+.wp-icon{
+  position: absolute;
+  left: 50px;
+  top: -37px;
+}
+u{
+  color: bisque;
+}
+
+.contact{
+  position: absolute;
+  color: silver;
+  font-family: cursive;
+  left: 600px;
+  top: 290px;
+  font-size: 20px;
+}
+.phone-logo{
+  position: absolute;
+  left: 50px;
+  top: -37px;
+}
+
+footer{
+  margin: auto;
+  text-align: center;
+  background-color: #000000;
+  color: honeydew;
+  height: 410px;
+  width: auto;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.nam{
+  color: yellowgreen;
+  position: absolute;
+  left: 745px;
+  top: 381px;
+}
+.copy{
+  position: absolute;
+  left: 475px;
+  top: 380px;
+  color: honeydew;
+}
+
+/* hottel      section */
+.hotelcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1227px;
+  margin: 0 auto;
+  padding: 75px 0 80px 80px;
+  
+}
+body{
+  background-image: url('./assets/images/hero-bg.png');
+}
+.card{
+ 
+  height: 400px;
+  width: 20rem;
+  overflow: hidden;
+  text-align: center;
+}
+.card1{
+
+ 
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card2{
+ 
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card3{
+
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card4{
+  
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card5{
+  
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card6{
+  
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card7{
+
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card8{
+ 
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card9{
+
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card10{
+
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.card11{
+
+  height: 400px;
+  width: 20rem;
+  text-align: center;
+}
+.cardimg1{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+
+
+.cardimg2{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg3{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg4{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg5{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg6{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg7{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg8{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg9{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+}
+.cardimg10{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+}
+.cardimg11{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+}
+.cardimg12{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: cover;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 20px;
+  
+}
+.contact_us{
+  background-color: blue;
+  margin: 13px 0 0 0; 
+  width: 143px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 19px;
+    font-size: 20px;
+}
+.h_name{
+  font-weight: bolder;
+  font-size: 20px;
+  color: blue;
+}
+/* services section */
+.section5 .heading {
+  font-size: var(--largeFontSize);
+  text-align: center;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section5 {
+  /* width: 95%; */
+  /* margin: 0 auto; */
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+
+.section5 .heading h2 {
+  display: inline-block;
+  position: relative;
+}
+.section5 .heading h2::before {
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-radius: 30px;
+  background: #ffd17c;
+}
+.section5 .slides {
+  height: 60vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  place-items: center;
+}
+
+.section5 .slides .slidesContainer {
+  position: relative;
+  width: fit-content;
+  display: flex;
+  transition: cubic-bezier(0.76, -0.38, 0, 1.16) 0.5s;
+}
+.section5 .slides .slide {
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+.section5 .slide .rating {
+  display: flex;
+  max-width: 400px;
+  justify-content: center;
+}
+.section5 .slide .review {
+  font-size: 40px;
+  max-width: 800px;
+  font-weight: 600;
+  text-align: center;
+}
+.section5 .slide .details {
+  display: flex;
+  place-content: center;
+}
+.section5 .slide .details .name {
+  display: flex;
+  place-content: center;
+  gap: 5px;
+}
+
+.section5 .slide .details .name img {
+  height: 25px;
+}
+.section5 .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.section5 .buttons .button {
+  height: 40px;
+  width: 40px;
+  border-radius: 300px;
+  border: 0px solid rgba(27, 27, 27, 0.736);
+  background-color: #f8f8f8;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px #00000057;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+.section5 .buttons .button:hover {
+  background: #4b4949;
+  transform: scale(1.2);
+}
+.section5 .buttons .button:hover:before {
+  background: #ffffff;
+}
+.section5 .buttons .button::before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  top: 37%;
+  left: 36%;
+  /* transform: translate(50%,50%); */
+  width: 10px;
+  border-radius: 50px;
+  background-color: #4b4949;
+  z-index: 9;
+}
+/* Services           */
+
+.scard{
+  border-radius: 25px;
+  box-shadow: 0 0 40px 0 grey;
+  height: 600px;
+  width: 30rem;
+  text-align: center;
+}
+.scard1{
+  border-radius: 25px;
+  box-shadow: 0 0 40px 0 grey;
+  height: 600px;
+  width: 30rem;
+  text-align: center;
+  margin: 0 0 0 54px;
+}
+.scard2{
+  border-radius: 25px;
+    box-shadow: 0 0 40px 0 grey;
+  height: 600px;
+  width: 30rem;
+  text-align: center;
+}
+.scard3{
+  border-radius: 25px;
+  box-shadow: 0 0 40px 0 grey;
+  height: 600px;
+  width: 30rem;
+  text-align: center;
+  margin: 0 0 0 54px;
+}
+.scard4{
+  border-radius: 25px;
+  box-shadow: 0 0 40px 0 grey;
+  height: 600px;
+  width: 30rem;
+  text-align: center;
+}
+.scard5{
+  border-radius: 25px;
+  box-shadow: 0 0 40px 0 grey;
+  height: 600px;
+  width: 30rem;
+  margin: 0 0 0 54px;
+  text-align: center;
+}
+.scardimg1{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 335px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 146px;
+}
+.scardimg2{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 335px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 146px;
+}
+.scardimg3{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 335px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 146px;
+}
+.scardimg4{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 335px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 146px;
+}
+.scardimg5{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 335px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 146px;
+}
+.scardimg6{
+  box-shadow: 0 0 19px 0;
+  background: 0;
+  width: 100%;
+  height: 335px;
+  background-image: url("./assets/images/nirvana-hotel.jpg");
+  border-radius: 146px;
+}
+.contact_us2{
+  background-color: blue;
+  margin: 13px 0 0 0; 
+  width: 200px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 19px;
+}
+.c_container{
+  height: 400px;
+ 
+}
+.Left_container{
+  box-shadow: 0 0 16px 0 black,inset 0 0 5px 0 black;
+  width: 39%;
+  height: 370px;
+  top: 90px;
+    position: absolute;
+    left: 380px;
+    padding: 0 0 0 25px ;
+    border-radius: 20px;
+    background-color:honeydew;
+    font-weight: bolder;
+}
+.c_lab{
+  position: relative;
+  width: 450px;
+  border-bottom: 0.3px solid black;
+}
+.c_button{
+  position: relative;
+  background-color:#DDD;
+
+}
+textarea{
+  height: 106px;
+  width: 450px;
+  border-bottom: 0.3px solid black;
+}
+
+
